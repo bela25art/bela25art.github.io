@@ -1,1 +1,43 @@
+/* Basic styles for Bela Art Succulents */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e6f0e9; /* light soft green */
+  color: #2c3e34; /* dark teal */
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #1b5e4a; /* teal green */
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+button {
+  background-color: #1b5e4a;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #164734;
+}
+
 
