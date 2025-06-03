@@ -1,1 +1,4 @@
-
+<svg width="1200" height="700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" fill="#b8c9f1"/>
+  <text x="600" y="350" font-size="60" text-anchor="middle" fill="white">Landscape</text>
+</svg>data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI3MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNzAwIiBmaWxsPSIjYjhjOWYxIi8+CiAgPHRleHQgeD0iNjAwIiB5PSIzNTAiIGZvbnQtc2l6ZT0iNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIj5MYW5kc2NhcGU8L3RleHQ+Cjwvc3ZnPg==
