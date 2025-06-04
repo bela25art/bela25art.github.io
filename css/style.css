@@ -143,17 +143,32 @@ main {
   background-color: #5e6f56;
 }
 
+/* About Page */
+.about-content {
+  line-height: 1.8;
+  color: #3a3f35;
+}
+
+.about-content h2 {
+  color: #5b6650;
+  margin-bottom: 1rem;
+}
+
+.about-content p {
+  margin-bottom: 1rem;
+}
+
 /* Footer */
 footer {
+  background-color: #333;
+  color: white;
   text-align: center;
   padding: 1rem;
-  background-color: rgba(91, 102, 80, 0.8);
-  color: #ffffff;
   margin-top: 2rem;
 }
 
 footer a {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
 }
 
