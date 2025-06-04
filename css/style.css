@@ -1,6 +1,4 @@
-header nav a {
-  color: #000000; /* Dark blue-gray: change this to any color you like */
-}
+
 ---
 
 ## Style & Design
@@ -217,8 +215,7 @@ section p {
     margin-right: 1rem;
     font-size: 1.1rem;
   }
-}
-/* Header styling */
+}/* Header styling */
 header {
   background-color: #ffffff; /* White background */
   padding: 20px;
