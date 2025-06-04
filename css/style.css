@@ -139,7 +139,7 @@ main {
   cursor: pointer;
 }
 
-contact-form button:hover {
+.contact-form button:hover {
   background-color: #5e6f56;
 }
 
@@ -147,7 +147,7 @@ contact-form button:hover {
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: transparent;
+  background-color: rgba(91, 102, 80, 0.8);
   color: #ffffff;
   margin-top: 2rem;
 }
