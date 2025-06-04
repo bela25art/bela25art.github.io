@@ -1,3 +1,10 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: url('../images/background.jpg');
@@ -9,22 +16,10 @@ body {
   color: #333;
   line-height: 1.6;
 }
-/* Reset */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f6;
-  color: #333;
-  line-height: 1.6;
-}
-
+/* Header */
 header {
-  background-color: #586e50; /* muted olive */
+  background-color: rgba(88, 110, 80, 0.9); /* translucent olive */
   color: white;
   padding: 1.5rem 2rem;
   display: flex;
@@ -59,14 +54,18 @@ nav a.active {
   color: #2f3e2e;
 }
 
+/* Main Layout */
 main {
+  background-color: rgba(255, 255, 255, 0.9); /* semi-opaque bg over image */
   padding: 2rem;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 2rem auto;
+  border-radius: 12px;
 }
 
+/* Hero Section */
 .hero {
-  background-color: #e8ebe4;
+  background-color: rgba(255, 255, 255, 0.85);
   color: #3c4f3c;
   padding: 3rem 2rem;
   border-radius: 8px;
@@ -85,13 +84,15 @@ p {
   margin-bottom: 1rem;
 }
 
+/* Footer */
 footer {
-  background-color: #586e50;
+  background-color: rgba(88, 110, 80, 0.95);
   color: white;
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
   margin-top: 3rem;
+  border-radius: 0 0 8px 8px;
 }
 
 /* Gallery */
@@ -145,7 +146,7 @@ footer {
   color: #333;
 }
 
-/* Contact */
+/* Contact Form */
 .contact-form {
   max-width: 600px;
   margin: 0 auto;
