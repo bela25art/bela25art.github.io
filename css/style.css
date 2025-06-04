@@ -1,0 +1,218 @@
+
+---
+
+## Style & Design
+
+- Modern, clean layout with neutral green color accents for “succulents” vibe.
+- Responsive design with a simple navigation menu on top.
+- Consistent header/footer on all pages.
+- Polished typography for readability.
+
+---
+
+## 1. Common header & footer (to be included in each html file)
+
+**Header navigation links:** Home | About | Services | Gallery | Testimonials | Contact
+
+---
+
+## 2. Complete code for all files
+
+### `/css/style.css`
+
+```css
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #f9faf7;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #2c6b2f; /* Dark green */
+}
+
+a:hover {
+  color: #3ea33e;
+}
+
+header {
+  background-color: #2c6b2f;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.8rem;
+  user-select: none;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  margin-left: 1.2rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+main {
+  max-width: 1000px;
+  margin: 2rem auto 4rem;
+  padding: 0 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #e6e9e3;
+  color: #666;
+  font-size: 0.9rem;
+  border-top: 1px solid #ccc;
+}
+
+/* Hero / About Image */
+.hero-image {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px rgba(44,107,47,0.2);
+}
+
+/* Headings */
+h2 {
+  color: #2c6b2f;
+  margin-bottom: 0.6rem;
+}
+
+/* Section paragraphs */
+section p {
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+/* Services grid */
+.services-list {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.services-list li {
+  background: white;
+  border-radius: 6px;
+  padding: 1.2rem 1rem;
+  box-shadow: 0 2px 6px rgba(44,107,47,0.15);
+  font-weight: 600;
+  color: #2c6b2f;
+  text-align: center;
+}
+
+/* Gallery images */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(44,107,47,0.15);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Testimonials */
+.testimonials-list {
+  max-width: 700px;
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 0;
+}
+
+.testimonials-list li {
+  background: white;
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.07);
+  font-style: italic;
+  color: #2c6b2f;
+  position: relative;
+}
+
+/* Quotation marks */
+.testimonials-list li::before {
+  content: "“";
+  font-size: 3rem;
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  color: #7fb977;
+  opacity: 0.3;
+}
+
+.testimonials-list li::after {
+  content: "”";
+  font-size: 3rem;
+  position: absolute;
+  bottom: -20px;
+  right: 10px;
+  color: #7fb977;
+  opacity: 0.3;
+}
+
+/* Contact form */
+.contact-info {
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 3px 8px rgba(44,107,47,0.1);
+  color: #2c6b2f;
+}
+
+.contact-info p {
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Responsive nav on small screens */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav {
+    margin: 0.5rem 0 0 0;
+  }
+  nav a {
+    margin-left: 0;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+  }
+}
