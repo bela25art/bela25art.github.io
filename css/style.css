@@ -19,7 +19,7 @@ body {
 
 /* Override for Thank You Page */
 body.thank-you-page {
-  background-image: url('../images/gallery4.jpg');
+  background-image: url('../images/background.jpg');
 }
 
 /* Header */
