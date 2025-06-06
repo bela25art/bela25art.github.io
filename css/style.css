@@ -123,8 +123,9 @@ main {
   font-weight: bold;
   font-style: normal;
   text-align: right;
-  color: #5b6650;
+  color: #000000; /* Changed to black for better contrast */
 }
+
 
 /* Contact Form */
 .contact-form {
