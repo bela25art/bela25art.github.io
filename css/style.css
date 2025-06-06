@@ -17,6 +17,11 @@ body {
   line-height: 1.7;
 }
 
+/* Override for Thank You Page */
+body.thank-you-page {
+  background-image: url('../images/gallery4.jpg');
+}
+
 /* Header */
 header {
   background-color: #01746c;
