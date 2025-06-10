@@ -7,7 +7,7 @@ body, h1, h2, h3, p, ul {
 
 body {
   font-family: 'Georgia', serif;
-  background-image: url('/images/background.jpg');
+  background-image: url('https://bela25art.github.io/images/background.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -19,7 +19,7 @@ body {
 
 /* Override for Thank You Page */
 body.thank-you-page {
-  background-image: url('/images/background.jpg');
+  background-image: url('https://bela25art.github.io/images/background.jpg');
 }
 
 /* Header */
