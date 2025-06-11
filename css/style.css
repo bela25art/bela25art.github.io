@@ -6,6 +6,7 @@ body, h1, h2, h3, p, ul {
 }
 
 body {
+  min-height: 100vh;
   font-family: 'Georgia', serif;
   background-image: url('https://bela25art.github.io/images/background.jpg');
   background-size: cover;
@@ -15,6 +16,9 @@ body {
   background-color: #e6e9e2;
   color: #3a3f35;
   line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Override for Thank You Page */
