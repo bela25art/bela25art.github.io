@@ -33,7 +33,14 @@
         <p><strong>Phone:</strong> <a href="tel:12018991113">(201) 899-1113</a></p>
       </div>
 
-      <form action="https://formspree.io/f/mwpbveko" method="POST">
+      <form action="https://formsubmit.co/belaartsucculents@outlook.com" method="POST">
+        <!-- Redirect to Thank You page -->
+        <input type="hidden" name="_next" value="https://bela25art.github.io/thank-you.html">
+        <!-- Disable CAPTCHA -->
+        <input type="hidden" name="_captcha" value="false">
+        <!-- Email subject line -->
+        <input type="hidden" name="_subject" value="New message from Bela Art Succulents">
+
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required />
 
@@ -42,9 +49,6 @@
 
         <label for="message">Message</label>
         <textarea id="message" name="message" rows="5" required></textarea>
-
-        <input type="hidden" name="_subject" value="New message from Bela Art Succulents">
-        <input type="hidden" name="_next" value="https://bela25art.github.io/thank-you.html">
 
         <button type="submit">Send Message</button>
       </form>
