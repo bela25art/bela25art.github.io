@@ -105,27 +105,14 @@ main {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* Style for single image in service cards */
-.service-card > img {
+/* Updated gallery images style */
+.gallery-grid img {
   width: 100%;
-  height: auto;
-  border-radius: 6px;
-  margin-top: 1rem;
-}
-
-/* Multiple images for Custom Succulent Arrangements, Terrariums & Mini Gardens */
-.service-images {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.5rem;
-  margin-top: 1rem;
-}
-
-.service-images img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
+  height: auto;          /* Maintain natural aspect ratio */
+  max-height: 300px;     /* Optional max height to keep consistent sizes */
   object-fit: cover;
+  border-radius: 8px;
+  display: block;
 }
 
 /* Testimonials */
@@ -217,10 +204,5 @@ footer a:hover {
 
   main {
     padding: 1rem;
-  }
-
-  /* Responsive for multiple images in service */
-  .service-images {
-    grid-template-columns: 1fr 1fr;
   }
 }
