@@ -34,26 +34,22 @@ body.thank-you-page {
 header {
   background-color: #01746c;
   padding: 1rem;
-  color: #fdfdfd;
   text-align: center;
+  color: #fdfdfd;
 }
 
-/* Logo and Brand Layout */
 .header-brand {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
 }
 
-.logo {
-  height: 50px;
-  width: auto;
-  border-radius: 8px;
+.header-brand .logo {
+  height: 40px;
 }
 
-/* Title inside header */
+/* Header Title */
 header h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
@@ -121,7 +117,22 @@ main {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* Gallery Images */
+.service-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.service-images img {
+  flex: 1 1 30%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Updated gallery images style */
 .gallery-grid img {
   width: 100%;
   height: auto;
@@ -224,10 +235,13 @@ footer a:hover {
 
   .header-brand {
     flex-direction: column;
-    align-items: center;
   }
 
-  .logo {
-    height: 40px;
+  .service-images {
+    flex-direction: column;
+  }
+
+  .service-images img {
+    flex: 1 1 100%;
   }
 }
